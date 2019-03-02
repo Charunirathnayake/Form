@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form2</title>
+	<script type="text/javascript">
+		function validator(){
+			if (document.newform.box.checked) 
+				alert("Check by the user");
+
+			
+			else
+				alert("Please check again.");
+			
+		}
+	</script>
+</head>
+<body>
+    <form name="newform">
+    	<input type="checkbox" name="box"/>
+    	<br>
+    	<input type="button" name="Submit" value="Submit" onclick="validator()"/>
+
+    </form>
+
+</body>
+</html>
